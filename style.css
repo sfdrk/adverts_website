@@ -1,0 +1,418 @@
+/*------------------------------------- COMMON STYLES ------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Gruppo&family=Monoton&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.max-width {
+  max-width: 1320px;
+}
+.margin_auto {
+  margin: auto;
+}
+.font_10px {
+  font-size: 10px;
+}
+.font_20px {
+  font-size: 20px;
+}
+.font_bold {
+  font-weight: bold;
+}
+.display_flex {
+  display: flex;
+}
+.display_grid {
+  display: grid;
+}
+.text_align_center {
+  text-align: center;
+}
+.justify_space_between{
+  justify-content: space-between;
+}
+.justify_space_evenly {
+  justify-content: space-evenly;
+}
+.background_black {
+  background-color: #212529;
+}
+.nav_height {
+  height: 3rem;
+}
+.margin_zero {
+  margin: 0;
+}
+.border_bottom {
+  border-bottom: 1px solid #707476;
+}
+.nav_second_height {
+  height: 5rem;
+}
+.color_white {
+  color: #fff;
+}
+.grid_height{
+  height: 85vh;
+}
+.margin_left_zero{
+  margin-left: 0;
+}
+.spacer_1{
+  height: 1rem;
+}
+.spacer_6{
+  height: 6rem;
+}
+.spacer_2{
+  height: 2rem;
+}
+.spacer_3{
+  height: 3rem;
+}
+.spacer_5{
+  height: 5rem;
+}
+.spacer_8{
+  height: 8rem;
+}
+.weight_600{
+  font-weight: 600;
+}
+.font_30{
+  font-size: 30px;
+}
+.font_18{
+  font-size: 18px;
+}
+.width_100{
+  width: 100%;
+}
+.height_100{
+  height: 100%;
+}
+.text_align_center{
+  text-align: center;
+}
+.font_25px{
+  font-size: 25px;
+}
+.logo_size{
+  height: 40%;
+}
+.border_spacer{
+  height: 20vh;
+  width: 3rem;
+}
+.font_15px{
+  font-size: 15px;
+}
+.height_5rem{
+  height: 5rem;
+}
+.text_decoration{
+  text-decoration: none;
+}
+.width_28{
+    width: 28%;
+}
+.margin_left_auto{
+  margin-left: auto;
+}
+.list_style_type{
+  list-style-type: none;
+}
+.footer_font_color{
+  color:rgba(255,255,255,.5)
+}
+.max-width-2{
+  max-width: 1160px;
+  margin-left: 43%;
+}
+.margin_bottom_1rem{
+      margin-bottom: 1rem;  
+}
+.margin_right_1rem{
+  margin-right: 1rem;
+}
+.padding_0px{
+  padding: 0px;
+}
+.align_items_center{
+  align-items: center;
+}
+.display_none{
+display: none;
+}
+.flex_wrap{
+  flex-wrap: wrap;
+}
+/*------------------------------------- FIRST NAVIGATION ---------------------------------------*/
+
+.first_nav {
+  list-style-type: none;
+  align-items: center;
+  justify-content: flex-end;
+  height: 3rem;
+}
+.first_nav a {
+  color: #fff;
+  /* padding: 0px 10px 0px 10px; */
+  padding-left: 10px;
+  transition: 0.25s;
+  text-decoration: none;
+}
+.first_nav a:hover {
+  color: #d9667b;
+}
+
+.second_nav {
+  align-items: center;
+  height: 5rem;
+  list-style-type: none;
+}
+
+.second_nav a {
+  color: #fff;
+  padding: 0px 15px 0px 15px;
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+.second_nav a:hover {
+  color: #d9667b;
+}
+
+.brand {
+  color: #fff;
+  /* display: flex; */
+  align-items: center;
+  /* margin-left: auto; */
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-family: 'Monoton', cursive;
+  font-family: 'Gruppo', cursive;
+  font-size: 33px;
+  font-weight: 500;
+}
+
+/*------------------------------------ HOME PAGE ------------------------------------------------*/
+#home_page{
+  background-color:#212529;
+}
+.grid_layout{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.slide_1_description{
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+/* .second_grid_layout{
+  display: grid;
+  align-items: center;
+} */
+.home_image{
+  width: 129%;
+}
+/*-------------------------------------- SECOND PAGE ---------------------------------------------------*/
+#second_page{
+  background-color: #b9c995;
+}
+.second_icon{
+  width: 7%;
+}
+/*---------------------------------------- THIRD page ------------------------------------------------------*/
+.btn{
+  padding: .75rem 1.5rem;
+  font-size: .85rem;
+  border-radius: 19px;
+  border: none;
+  color: #fff;
+  background-color: #f7758d;
+}
+
+/*---------------------------------------- fourth PAGE -------------------------------------------------------*/
+/*----------------------------------------- fifth page -------------------------------------------------------*/
+#fifth_page{
+  background-color: #d6b8c4;
+}
+/*-------------------------------------------- SIXTH PAGE -----------------------------------------------------*/
+
+#sixth_page{
+  background-color: #212529;
+}
+.border{
+  width:  1px;
+  height: 23vh;
+  background-image:linear-gradient(#292c2c,#707272);
+}
+.logo img{
+  height: 100%;
+}
+
+/*--------------------------------------------seventh page -------------------------------------------*/
+.btn_small{
+  font-size: .85rem;
+  border-radius: 19px;
+  border-color: #ffad65;
+  color: #ffad65;
+  background-color: #fff;
+  /* width: 17%; */
+  border: 1px solid;
+  padding: 2px 8px 2px 8px;
+}
+.hover a{
+   text-decoration: none;
+   color: black;
+}
+.hover a:hover{
+  color: #d9667b;
+}
+/*------------------------------------------- EIGHTH PAGE -----------------------------------------------*/
+#eighth_page{
+  background-color: #9ce2ea;
+}
+.btn_medium{
+  padding: .75rem 1.5rem;
+  font-size: .85rem;
+  border-radius: 19px;
+  border: none;
+  color: #fff;
+  background-color: #f7758d;
+  min-width: 15rem;
+  margin-left: 16.5rem;
+}
+
+/*---------------------------------------------- FOOTER -------------------------------------------------*/
+#footer{
+  background-color: #212529;
+}
+.grid_container{
+  display: grid;
+  grid-template-columns: 40% 15% 15% 30%;
+}
+.challenges_list a{
+  color: #fff;
+  /* padding: 0px 15px 0px 15px; */
+  transition: 0.25s;
+  text-decoration: none;
+  list-style-type: none;
+  padding-bottom: 3px;
+}
+.challenges_list a:hover{
+  color: #d9667b;
+}
+.challenges_list li{
+  padding-bottom: 8px;
+}
+hr{
+  border: 1px solid;
+  color: rgba(255,255,255,.5);
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+/*--------------------------------------------- MEDIA QUERIES ---------------------------------------------*/
+@media(max-width:768px){
+  .header{
+    display: none;
+  }
+  .second_nav{
+    display: none;
+  }
+  .background_black{
+    width: 100%;
+  }
+  .slide_1_description{
+    font-size: 37px;
+    text-align: center;
+  }
+  .grid_layout{
+    display: block;
+  }
+  #home_page{
+    width: 100%;
+    padding-top: 85px;
+  }
+  #second_page{
+    width: 100%;
+    
+  }
+ .font_30{
+   font-size: 25px;
+   
+ }
+ .second_grid_layout{
+   display: none;
+ }
+ .grid_layout{
+   padding-left: 10px;
+   margin-top: -83px;
+   margin-bottom: -43px;
+}
+ 
+ /* .second_icon{
+   width: 20%;
+ } */
+ .btn{
+  padding: 0.75rem 0.5rem;
+ }
+ .second_page_responsive{
+   padding-left: 10px;
+ }
+.color_white{
+  padding-left: 15px;
+}
+.hover{
+  font-size: 14px;
+}
+.the_insights{
+  padding-left: 10px;
+}
+.btn_medium{
+  margin-left: 0px;
+    min-width: 9rem;
+    margin-top: 24px;
+}
+#eighth_page{
+  padding-left: 10px;
+}
+.grid_container{
+  grid: none;
+}
+.max-width-2{
+  margin-left: 0;
+}
+.challenges_list ul{
+  padding-left: 10px;
+}
+.address{
+padding-left:10px;
+}
+.brand{
+  padding-left: 10px;
+  margin-left: 0;
+}
+.about{
+  padding-left: 10px;
+}
+.cookies{
+  padding-left: 10px;
+}
+hr{
+  width: 93%;
+}
+.home{
+  width: 100%;
+  display: flex;
+}
+.togler{
+  display: flex;
+  font-size: 35px;
+ width: 100%;
+ justify-content: flex-end;
+ margin-right: 10px;
+}
+}
